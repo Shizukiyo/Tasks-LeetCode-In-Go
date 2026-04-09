@@ -1,8 +1,6 @@
 // https://leetcode.com/problems/roman-to-integer/
 package main
 
-import "fmt"
-
 func romanToInt(s string) int {
 
 	res := 0
@@ -57,8 +55,4 @@ func romanToInt(s string) int {
 	}
 
     return res
-}
-
-func main() {
-	fmt.Println(romanToInt("MCMXCIV"))
 }
