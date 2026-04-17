@@ -1,10 +1,6 @@
 // https://leetcode.com/problems/happy-number/description/
 package main
 
-import (
-	"fmt"
-)
-
 func isHappy(n int) bool {
 	cur := n
 	i := 0
@@ -28,10 +24,4 @@ func isHappy(n int) bool {
 	}
 
 	return cur == 1
-}
-
-func main() {
-	fmt.Println(isHappy(6))
-	// fmt.Println(isHappy(2))
-	// fmt.Println(isHappy(1111111))
 }
